@@ -1,0 +1,12 @@
+body {
+  background: rgba(187, 128, 128, 0.593);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

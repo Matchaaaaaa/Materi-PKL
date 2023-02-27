@@ -1,0 +1,25 @@
+.team-wrapper {
+    margin: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-card {
+    display: flex;
+}
+
+.team-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-card img {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+.team-desc {
+    padding-left: 10px;
+}

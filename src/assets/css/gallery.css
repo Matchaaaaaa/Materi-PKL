@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box
+}
+
+.kartu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 40px;
+  }
+
+  .judul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+  .judul h1{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 145px;
+    
+
+  }
+
+  .kartu-atas, .kartu-bawah {
+    display: flex;
+    gap: 40px;
+  }
+  
+
+  .kartu-bawah{
+    margin-bottom: 100px;
+  }
+
+  .kartu1, .kartu2, .kartu3, .kartu4{
+    width: 50%;
+    height: 272px;
+    background-color: #333333;
+    padding: 20px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: justify;
+    transition: 0.6s;
+  }
+  
+  .kartu1{
+    background-image: url(../gallery.jpg);
+    background-size: cover;
+  }
+  
+  .kartu1:hover{
+    transform: scale(1.05);
+  }
+  
+  .kartu2 {
+    background-image: url(../gallery.jpg);
+    background-size: cover;
+  }
+  
+  .kartu2:hover {
+    transform: scale(1.05);
+  }
+  
+  .kartu3 {
+    background-image: url(../gallery.jpg);
+    background-size: cover;
+  }
+  
+  .kartu3:hover {
+    transform: scale(1.05);
+  }
+  
+  .kartu4 {
+    background-image: url(../gallery.jpg);
+    background-size: cover;
+  }
+
+  .kartu4:hover {
+    transform: scale(1.05);
+  }
+
+
+   .cart{
+    display: flex;
+    grid-row: auto;
+    grid-row: 2;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_1 p{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_2 {
+    display: flex;
+    flex-direction: column  ;
+    width: 100%;
+}
+
+.text_2 p{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_1 button {
+    background-color:  rgb(248, 6, 6);;
+    display: block;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .text_2 button {
+    background-color:  rgb(248, 6, 6);;
+    display: block;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .text_1 button:hover {
+    color: rgb(216, 228, 216); 
+    background-color: rgb(47, 55, 47);
+  }
+  
+  .text_2 button:hover {
+    color: rgb(216, 228, 216); 
+    background-color: rgb(47, 55, 47);
+  }
+  
+
+
+/* Create two equal columns that floats next to each other */
+.column-1 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  margin-left: 155px;
+}
+
+.column-1 button {
+  background-color: aqua;
+  border-radius: 10px;
+  border: none;
+  margin-left: 160px;
+}
+
+.column-1 h2 {
+  margin-left: 160px;
+  margin-top: -12.6rem;
+}
+
+.column-1 p {
+  margin-left: 160px;
+}
+
+.column-2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.column-2 button {
+  background-color: aqua;
+  border-radius: 10px;
+  border: none;
+  margin-left: 160px;
+}
+
+.column-2 h2 {
+  margin-left: 160px;
+  margin-top: -12.6rem;
+}
+
+.column-2 p {
+  margin-left: 160px;
+}
+
+/* Clear floats after the columns */
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+

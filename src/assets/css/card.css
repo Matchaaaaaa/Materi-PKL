@@ -1,0 +1,106 @@
+.card {
+    width: 80%;
+    height: 600px;
+    left: 0px;
+    top: 50px;
+    margin-left: 150px;
+  }
+
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .text-satu h1{
+    font-size: 25px;
+    text-align: left;
+    
+    
+  }
+
+  .card-atas {
+    display: flex;
+    gap: 40px;
+  }
+
+  .text-satu {
+    display: flex;
+    gap: 40px;
+  }
+  
+
+  .card1, .card2{
+    width: 50%;
+    height: 272px;
+    background-color: #333333;
+    padding: 20px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: justify;
+    
+  }
+
+  .text1,.text2{
+    width: 50%;
+    height: 272px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: justify;
+    
+  }
+  
+  .card1{
+    background-image: url(../card2.jpg);
+    background-size: cover;
+  }
+  
+  .card2 {
+    background-image: url(../card1.jpg);
+    background-size: cover;
+  }
+
+  .text1 button {
+    background-color: rgb(248, 6, 6);
+    display: block;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .text2 button {
+    background-color:  rgb(248, 6, 6);
+    display: block;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .text1 button:hover {
+    color: rgb(216, 228, 216); 
+    background-color: rgb(47, 55, 47);
+  }
+
+  .text2 button:hover {
+    color: rgb(216, 228, 216); 
+    background-color: rgb(47, 55, 47);
+  }
+
+  .tombolicon {
+    
+    font-size: 40px;
+  }
+
+
+
+
+
+
+  
+  
